@@ -29,3 +29,5 @@ def testTwos():
     assert 3 == x.twos([2,1,2,3,2])
     assert 5 == x.twos([2,2,2,2,2])
     
+    print("Twos tests passed!")
+
