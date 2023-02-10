@@ -25,7 +25,7 @@ def testAces():
     
 def testTwos():
     x = ScoreMachine()
-    assert 0 == x.aces([1,3,4,1,5])
-    assert 3 == x.aces([2,1,2,3,2])
-    assert 5 == x.aces([2,2,2,2,2])
+    assert 0 == x.twos([1,3,4,1,5])
+    assert 3 == x.twos([2,1,2,3,2])
+    assert 5 == x.twos([2,2,2,2,2])
     
